@@ -89,6 +89,7 @@ public class RandomRdfGenerator implements RdfGenerator {
 	}
 	
 	// add doc
+	// FIXME duplicated code: RDFPartitioning Converter!!
 	private Graph convertVertexSetToGraph(List<Vertex> set) throws RdfGeneratorException {
 		Graph graph = new TreeModel();
 		
