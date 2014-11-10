@@ -1,4 +1,4 @@
-package de.unikoblenz.west.rdf.generator;
+package de.unikoblenz.west.rdf.generator.model;
 
 import org.openrdf.model.URI;
 

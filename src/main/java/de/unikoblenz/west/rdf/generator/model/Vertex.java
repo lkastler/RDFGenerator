@@ -1,9 +1,11 @@
-package de.unikoblenz.west.rdf.generator;
+package de.unikoblenz.west.rdf.generator.model;
 
 import java.util.LinkedList;
 import java.util.List;
 
 import org.openrdf.model.URI;
+
+import de.unikoblenz.west.rdf.generator.EdgeGenerationException;
 
 /**
  * graph vertex for graph generation
