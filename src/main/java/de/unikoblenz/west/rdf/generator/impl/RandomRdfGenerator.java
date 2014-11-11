@@ -15,11 +15,11 @@ import org.openrdf.model.impl.ValueFactoryImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import de.unikoblenz.west.rdf.generator.EdgeGenerationException;
 import de.unikoblenz.west.rdf.generator.RdfGenerator;
 import de.unikoblenz.west.rdf.generator.RdfGeneratorException;
-import de.unikoblenz.west.rdf.generator.model.Edge;
-import de.unikoblenz.west.rdf.generator.model.Vertex;
+import de.unikoblenz.west.rdf.graph.Edge;
+import de.unikoblenz.west.rdf.graph.EdgeGenerationException;
+import de.unikoblenz.west.rdf.graph.Vertex;
 
 /**
  * implements a randomized graph as RDF graph.
